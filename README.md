@@ -7,15 +7,7 @@ Build a dbt project analyzing global airport data on Snowflake.
 ## Getting Started
 
 1. Copy this repository by clicking the "Use Template" button
-2. Make your repository private
-3. Invite collaborators so we can grade your work:
-   - Open your repository on github.com
-   - Click "Settings" (top row of tabs)
-   - In the left sidebar click "Manage access"
-   - Click "Invite teams or people" (or "Invite a collaborator")
-   - Type `zoltanctoth`, select the user, click "Add" or "Invite"
-   - Repeat for `nai-coder`
-   - Choose "Write" permission level and confirm
+2. Explore the dataset: [DATASETS.md](DATASETS.md)
 4. Get your repo running by going through one of these options:
    - **Use as a Codespace**: Click "Code" > "Codespaces" > "Create codespace on main"
    - **Clone locally**: Clone your fork, then run:
@@ -27,12 +19,6 @@ Build a dbt project analyzing global airport data on Snowflake.
 ---
 
 ## Part 1: Project Setup
-
-### Step 0: Add Your Student ID
-Add your student ID here (edit the next line in this file and commit):
-```
-Student id: REPLACE THIS WITH YOUR STUDENT ID
-```
 
 ### Step 1: Initialize the dbt Project
 
@@ -324,11 +310,3 @@ Implement the following:
 * Add descriptions to the silver tables and their columns
 * Use a '{{ doc("...") }}'-based documentation at least once
 * Create an overview.md where you discuss in a few sentences how the silver tables interconnect
-
-## Submission
-
-Commit every change to this repo: 
-* Ensure that you filled in your user id and the other `REPLACE THIS` blocks in this md file.
-* Ensure that you also add the profiles.yml file. _Disclaimer: You should never push credentials to git in production. It's OK now as it's a private repo and an instructional setting_.
-
-Deadline: (Up until end of **Part 8**) 1 Feb 2026, 11:59pm - Submission through moodle: Submit the link to your repository
